@@ -1,0 +1,59 @@
+:root {
+    /* === PRIMARY PALETTE (Premium Unified) === */
+    --color-primary: #667eea;
+    --color-primary-dark: #764ba2;
+    --color-primary-hover: #7c8ff0;
+    --color-primary-active: #5a67d8;
+    
+    /* Gradiente Principal */
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-primary-vertical: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    
+    /* === SEMANTIC COLORS (Neon Accents) === */
+    --color-success: #00E676;
+    --color-warning: #FFC400;
+    --color-danger: #FF1744;
+    --color-info: #667eea;
+
+    /* === NEUTRAL SCALE (LIGHT MODE) === */
+    --bg-dark: #ffffff;
+    --bg-card: #f8fafc;
+    --bg-hover: #f1f5f9;
+
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+
+    /* === GLASSMORPHISM (LIGHT MODE) === */
+    --glass-bg: rgba(248, 250, 252, 0.8);
+    --glass-border: rgba(102, 126, 234, 0.15);
+    --glass-shadow: 0 8px 32px 0 rgba(102, 126, 234, 0.1);
+    --neon-glow: 0 0 20px rgba(102, 126, 234, 0.15);
+
+    /* === LAYOUT === */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-xl: 1rem;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* Sombras con el nuevo color */
+    --shadow-primary: 0 4px 20px rgba(102, 126, 234, 0.35);
+    --shadow-primary-lg: 0 8px 32px rgba(102, 126, 234, 0.4);
+}
+
+/* Glass Card Helper Class */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1.5px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--glass-shadow);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--neon-glow), var(--glass-shadow);
+    border-color: var(--color-primary);
+}

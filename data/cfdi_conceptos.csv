@@ -1,0 +1,313 @@
+id,cfdi_id,clave_prod_serv,no_identificacion,cantidad,clave_unidad,unidad,descripcion,valor_unitario,importe,descuento,objeto_impuesto,metadata,created_at,updated_at
+1,1,43232403,"",1.000000,ACT,Servicio,Servicios de workspace,4032.000000,4032.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+2,2,82101603,"",1.000000,E48,Servicio,"Publicidad ""Google Ads""",15542.430000,15542.43,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+3,3,81112006,"",1.000000,ACT,Servicio,Servicios de Plataforma de Google Cloud (GCP),19.040000,19.04,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+4,4,84111506,"",1.000000,ACT,Servicio,Cancelación Prepago,4310.340000,4310.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+5,5,84111506,"",1.000000,ACT,Servicio,Cancelación Prepago,4310.340000,4310.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+6,6,84111506,"",1.000000,ACT,Servicio,Cancelación Prepago,4310.340000,4310.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+7,7,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+8,8,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+9,9,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+10,10,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+11,11,43231600,CMR03,1.000000,E48,SERVICIO,Servicio de monitoreo y validacion automatica de proveedores en la Lista Negra del SAT: 25 RFCs - 15000 proveedores - 5 usuarios,19280.340000,19280.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+12,12,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+13,13,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+14,14,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+15,15,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+16,16,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+17,17,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+18,18,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.800000,3288.80,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+19,19,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+20,20,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+21,21,43231600,CPG-AD,25000.000000,E48,SERVICIO,25000 transacciones adicionales para el servicio CSPlug,1.140000,28500.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+22,22,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+23,23,43231600,CST12,1.000000,E48,SERVICIO,Servicio de interconexion sistemas-sistema a traves de archivos TXT/XML para la generacion de CFDI a partir de tickets,91415.000000,91415.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+24,23,43231600,CPG-AD,400000.000000,E48,SERVICIO,400000 transacciones adicionales para el servicio CSPlug,0.990000,396000.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+25,24,43231600,CSRA01,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",2519.100000,2519.10,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+26,25,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+27,26,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+28,27,43231600,DESA,1.000000,E48,SERVICIO,Desarrollo Especializado: Realizar la descarga masiva de aprox. 30M de CFDIs de la empresa DISTRIBUIDORA DE GAS NOEL S.A. DE C.V por parte del equipo especializado de CSFacturacion. Se estima el esfuerzo de 426 HH.,174420.000000,174420.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+29,28,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+30,29,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+31,30,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+32,31,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+33,32,84121500,"",1.000000,E48,Servicios,COMISION COBRADA,490.000000,490.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+34,33,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+35,34,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+36,35,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+37,36,84111505,"",1.000000,ACT,"",Pago de nómina,4179.980000,4179.98,194.78,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+38,37,81112001,"",1.000000,E48,"",SERVICIO DE TIMBRADO DEL MES DE DICIEMBRE 2025,58194.180000,58194.18,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+39,38,81112001,"",11000.000000,E48,"",CREDITOS PARA GENERAR TIMBRE FISCAL POR COMERCIO DIGITAL,0.250000,2750.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+40,39,84111500,SER459,1.000000,E48,SERVICIO,ELABORACIÓN DE CONTABILIDAD E IMPUESTOS DICIEMBRE 2025,3800.000000,3800.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+41,40,80141601,COMISION,1.000000,E48,COM,COMISION OCTUBRE 2025,1504.000000,1504.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+42,41,80101511,D71,1.000000,E48,"",Protocolos formativos para la prevención del aumento en cuentas incobrables.,15750.000000,15750.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+43,42,43231600,CTT-AD,1997250.000000,E48,SERVICIO,1997250 transacciones adicionales para el servicio CSTicket,0.006000,11983.50,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+44,43,43231600,CWB-AD,100.000000,E48,SERVICIO,100 transacciones adicionales para el servicio CSWEB,7.680000,768.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+45,44,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+46,45,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+47,46,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+48,47,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+49,48,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+50,49,43231600,CST12,1.000000,E48,SERVICIO,Servicio de interconexion sistemas-sistema a traves de archivos TXT/XML para la generacion de CFDI a partir de tickets,91415.000000,91415.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+51,49,43231600,CPG-AD,400000.000000,E48,SERVICIO,400000 transacciones adicionales para el servicio CSPlug,0.990000,396000.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+52,50,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+53,51,43231600,CSF12,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 600 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,2499.000000,2499.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+54,52,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+55,53,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+56,54,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+57,55,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+58,56,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+59,57,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+60,58,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",2098.950000,2098.95,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+61,59,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+62,60,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+63,61,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+64,62,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+65,63,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+66,64,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+67,65,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+68,66,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+69,67,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+70,68,43231600,CPG-AD,46138.000000,E48,SERVICIO,46138 transacciones adicionales para el servicio CSPlug,1.140000,52597.32,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+71,68,43231600,DESA,1.000000,E48,SERVICIO,"11 Horas de trabajo en cancelación y re facturación (agosto, marzo, mayo, julio, septiembre, enero) a un costo unitario de $750.00.",8250.000000,8250.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+72,69,84111505,"",1.000000,ACT,"",Pago de nómina,4180.310000,4180.31,194.71,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+73,70,84111505,"",1.000000,ACT,"",Pago de nómina,5344.220000,5344.22,584.22,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+74,71,84111505,"",1.000000,ACT,"",Pago de nómina,6564.200000,6564.20,826.60,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+75,72,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+76,73,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,673.80,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+77,74,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+78,75,84111505,"",1.000000,ACT,"",Pago de nómina,5344.220000,5344.22,584.22,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+79,76,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+80,77,84111505,"",1.000000,ACT,"",Pago de nómina,4352.920000,4352.92,879.12,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+81,78,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+82,79,84111505,"",1.000000,ACT,"",Pago de nómina,5344.220000,5344.22,583.62,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+83,80,84111505,"",1.000000,ACT,"",Pago de nómina,3903.200000,3903.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+205,196,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+84,81,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+85,82,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+86,83,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+87,84,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+88,85,92121700,1324,1.000000,E48,Unidad de servicio,Monitoreo Dual Com Ret c/Ver,1814.000000,1814.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+89,86,80101500,G14,1.000000,E48,"",Asesoramiento para las acciones de ajuste y corrección al modelo onboarding bajo la información recopilada.,11085.050000,11085.05,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+90,87,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+91,88,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+92,89,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+93,90,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+94,91,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+95,92,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+96,93,43231600,CSRA01,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",3085.890000,3085.89,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+97,94,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+98,95,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1169.000000,1169.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+99,96,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+100,97,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+101,98,43231600,CSRA05,1.000000,E48,SERVICIO,Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - Descargas CIEC Ilimitadas - Descargas e.firma Ilimitadas - 4 Equipos - Anual,33599.000000,33599.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+102,98,43231600,CSRN-AD,2.000000,E48,SERVICIO,2 Instalaciones Premium adicionales para el servicio CSReporter V3,819.000000,1638.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+103,99,43231600,CSP02,1.000000,E48,SERVICIO,Cargo anual por servicio de interconexion sistema-sistema a traves de archivos TXT para generacion de CFDIs.,17999.000000,17999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+104,100,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+105,101,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.790000,3288.79,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+106,102,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3288.790000,3288.79,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+107,103,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+108,104,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+109,105,43231600,CWB-AD,100.000000,E48,SERVICIO,100 transacciones adicionales para el servicio CSWEB,7.680000,768.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+110,106,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+111,107,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+112,108,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+113,109,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",4093.950000,4093.95,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+114,110,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+115,111,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1169.000000,1169.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+116,112,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+117,113,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+118,114,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+119,115,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+120,116,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+121,117,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+122,118,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+123,119,43231600,CSRN04,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 400,000 Descargas CIEC - 4 Equipos - Anual",13859.000000,13859.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+124,119,43231600,CSRN-AD,4.000000,E48,SERVICIO,4 Instalaciones adicionales para el servicio CSReporter V3,629.000000,2516.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+125,120,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+126,121,01010101,"",2.000000,H87,"",Pizarron 120x90cm Blanco Magnetico Escolar Calidad,1033.620000,2067.24,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+127,122,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+128,123,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+129,124,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+130,125,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+131,126,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+132,127,43231600,CSRA02,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",4191.200000,4191.20,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+133,127,43231600,CSRN-AD,2.000000,E48,SERVICIO,2 Instalaciones Premium adicionales para el servicio CSReporter V3,819.000000,1638.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+134,128,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+135,129,43231600,CSRA04,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 400,000 Descargas CIEC - Descargas con e.firma - 4 Equipos - Anual",17599.000000,17599.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+136,130,43231600,CPG-AD,300.000000,E48,SERVICIO,300 transacciones adicionales para el servicio CSPlug,4.930000,1479.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+137,131,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+138,132,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+139,133,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+140,134,43231600,CWB-AD,50.000000,E48,SERVICIO,50 transacciones adicionales para el servicio CSWEB,8.670000,433.50,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+141,135,43231600,CSRA01,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",2799.000000,2799.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+142,136,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+143,137,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+144,138,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1169.000000,1169.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+145,139,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+146,140,43231600,CRAPI02,1.000000,E48,SERVICIO,Costo anual por el servicio de descarga masiva de CFDIs a traves de API: RFCs ilimitados - 1 000 000 Descargas - Descarga con CIEC,13799.500000,13799.50,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+147,141,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+148,142,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+149,143,84111506,"",1.000000,ACT,Servicio,Prepago de servicios de anuncios de Google,4310.340000,4310.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+150,144,80141600,M173,1.000000,E48,"",Generación de reportes de análisis predictivo mediante Business Intelligence para proyectar ventas y comportamiento del mercado.,87781.250000,87781.25,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+151,145,80141600,Facturas,1.000000,E48,Servicios,Comisiones correspondientes  al mes de diciembre 2025.,11534.000000,11534.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+152,146,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+153,147,43231600,CSRFC00,1.000000,E48,SERVICIO,Costo por el servicio de la API de la Validacion de un RFC ante el SAT RFCs Ilimitados - Transacciones ilimitadas,4499.000000,4499.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+154,147,43231600,CVRFC00,1.000000,E48,SERVICIO,Costo por el servicio de la API de la Validacion de Datos Fiscales ante el SAT RFCs Ilimitados - Transacciones ilimitadas,4499.000000,4499.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+155,148,43231600,CSRA02,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",5239.000000,5239.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+156,149,43231600,CSRN08,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 40,000 Descargas CIEC - 2 Equipos - Anual",2399.000000,2399.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+157,150,43231600,CSRA04,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 400,000 Descargas CIEC - Descargas con e.firma - 4 Equipos - Anual",17599.000000,17599.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+158,151,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+159,152,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+160,153,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+161,154,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+162,155,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+163,156,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+164,157,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+165,158,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+166,159,43231600,CWB-AD,100.000000,E48,SERVICIO,100 transacciones adicionales para el servicio CSWEB,7.680000,768.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+167,160,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+168,161,43231600,CWB-AD,20.000000,E48,SERVICIO,20 transacciones adicionales para el servicio CSWEB,8.670000,173.40,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+169,162,81112106,"",1.000000,E48,Servicio,"Comunicación Empresarial 1,900 minutos 12-01-2026 - 12-02-2026",1189.000000,1189.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+170,163,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+171,164,84111505,"",1.000000,ACT,"",Pago de nómina,2687.200000,2687.20,265.80,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+172,165,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+173,166,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+174,167,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,279.000000,279.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+175,168,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+176,169,43231600,CPG-AD,7126.000000,E48,SERVICIO,7126 transacciones adicionales para el servicio CSPlug,0.650000,4631.90,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+177,170,43231600,CRAPI02,1.000000,E48,SERVICIO,Costo anual por el servicio de descarga masiva de CFDIs a traves de API: RFCs ilimitados - 1 000 000 Descargas - Descarga con CIEC,27599.000000,27599.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+178,171,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+179,172,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+180,173,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+181,174,43231600,CWB-AD,100.000000,E48,SERVICIO,100 transacciones adicionales para el servicio CSWEB,7.680000,768.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+182,175,43231600,CST12,1.000000,E48,SERVICIO,Servicio de interconexion sistemas-sistema a traves de archivos TXT/XML para la generacion de CFDI a partir de tickets,17999.000000,17999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+183,175,43231600,CSP02,1.000000,E48,SERVICIO,Cargo anual por servicio de interconexion sistema-sistema a traves de archivos TXT para generacion de CFDIs.,17999.000000,17999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+184,175,43231600,CPG,4.000000,E48,SERVICIO,RFC ADICIONAL,1799.000000,7196.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+185,176,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+186,177,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+187,178,84111505,"",1.000000,ACT,"",Pago de nómina,2687.130000,2687.13,265.93,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+188,179,84111505,"",1.000000,ACT,"",Pago de nómina,3435.570000,3435.57,375.57,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+189,180,84111505,"",1.000000,ACT,"",Pago de nómina,4219.780000,4219.78,531.38,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+190,181,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+191,182,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,433.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+192,183,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+193,184,84111505,"",1.000000,ACT,"",Pago de nómina,3435.570000,3435.57,375.57,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+194,185,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+195,186,84111505,"",1.000000,ACT,"",Pago de nómina,2798.280000,2798.28,705.88,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+196,187,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+197,188,84111505,"",1.000000,ACT,"",Pago de nómina,3435.570000,3435.57,375.17,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+198,189,84111505,"",1.000000,ACT,"",Pago de nómina,2509.200000,2509.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+199,190,25191605,010101,1.000000,H87,prueba,Concepto sin impuestos,1.000000,1.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+200,191,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+201,192,84111505,"",1.000000,ACT,"",Pago de nómina,1908.650000,1908.65,197.85,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+202,193,84111505,"",1.000000,ACT,"",Pago de nómina,2344.300000,2344.30,271.90,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+203,194,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+204,195,84111505,"",1.000000,ACT,"",Pago de nómina,1575.310000,1575.31,248.71,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+206,197,84111505,"",1.000000,ACT,"",Pago de nómina,1908.780000,1908.78,197.78,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+207,198,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+208,199,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,244.20,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+209,200,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+210,201,84111505,"",1.000000,ACT,"",Pago de nómina,1908.750000,1908.75,197.55,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+211,202,84111505,"",1.000000,ACT,"",Pago de nómina,1575.200000,1575.20,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+212,203,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",4093.950000,4093.95,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+213,204,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+214,205,43231600,CSRN08,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 40,000 Descargas CIEC - 2 Equipos - Anual",2399.000000,2399.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+215,206,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+216,207,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+217,208,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+218,209,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+219,210,43231600,CST12,1.000000,E48,SERVICIO,Servicio de interconexion sistemas-sistema a traves de archivos TXT/XML para la generacion de CFDI a partir de tickets,94788.210000,94788.21,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+220,210,43231600,CPG-AD,400000.000000,E48,SERVICIO,400000 transacciones adicionales para el servicio CSPlug,1.020000,408000.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+221,211,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+222,212,14111705,000750194348964,1.000000,H87,PIEZAS,SUAVEL,40.517241,40.52,8.62,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+223,212,47131829,000750105871474,1.000000,H87,PIEZAS,HARPIC 5 PZ,63.793103,63.79,12.93,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+224,212,53131624,000750194346217,2.000000,H87,PIEZAS,COTTONELLE,48.275862,96.55,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+225,212,47131816,000750649508357,1.000000,H87,PIEZAS,REP 2 FRUITY,77.586207,77.59,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+226,212,10191500,000750103293088,1.000000,H87,PIEZAS,AROMATIZANT,155.172414,155.17,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+227,212,47131500,000005114138478,2.000000,H87,PIEZAS,SB PA MICRO,14.655172,29.31,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+228,212,47121701,000750179161499,2.000000,H87,PIEZAS,GV BOLSA,30.172414,60.34,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+229,212,26111702,000888802120612,1.000000,H87,PIEZAS,ENERGIZ BP12,180.172414,180.17,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+230,212,47131800,000750303616546,2.000000,H87,PIEZAS,GLD ATAP SAN,193.103448,386.21,55.17,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+231,212,50192100,000750047803740,3.000000,H87,PIEZAS,TOSTITOS VDE,12.000000,36.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+232,212,50192100,000750047804230,2.000000,H87,PIEZAS,BOTANA CHUR,10.000000,20.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+233,212,50192100,000750047804530,3.000000,H87,PIEZAS,PAKETAXO,10.000000,30.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+234,212,50192100,000750047804531,2.000000,H87,PIEZAS,PAKETAXO,10.000000,20.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+235,212,50192100,000750047804602,1.000000,H87,PIEZAS,BOTANA CHEET,15.000000,15.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+236,212,50192100,000750047804586,2.000000,H87,PIEZAS,RANCHERITOS,10.000000,20.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+237,212,50192100,000750047803764,3.000000,H87,PIEZAS,CRUJITOS 35,9.000000,27.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+238,212,50192100,000750047804612,4.000000,H87,PIEZAS,CHEETOS BOLI,10.000000,40.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+239,212,50192100,000750047803494,2.000000,H87,PIEZAS,PALOMITAS D,10.000000,20.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+240,212,50192100,000750047804529,2.000000,H87,PIEZAS,PAKETAXO,10.000000,20.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+241,212,90101500,000750179167025,1.000000,H87,PIEZAS,JAMAICA,31.000000,31.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+242,212,12131700,000750224754821,1.000000,H87,PIEZAS,ENCENDEDOR,21.551724,21.55,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+243,212,47131805,000750102540304,1.000000,H87,PIEZAS,PINOL ACEITE,50.000000,50.00,14.66,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+244,212,50182005,000750060800027,1.000000,H87,PIEZAS,RICE CAKE,29.000000,29.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+245,212,50181900,000750047804505,2.000000,H87,PIEZAS,PEKE PAKES,72.000000,144.00,20.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+246,212,42211602,000088855616507,2.000000,H87,PIEZAS,CEPILLO WC,21.551724,43.10,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+247,212,47131807,000000007500061,1.000000,H87,PIEZAS,CLORALEX 950,17.241379,17.24,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+248,212,50171833,000750222377603,1.000000,H87,PIEZAS,ALADINO 794,169.000000,169.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+249,213,82111801,"",1.000000,E48,Unidad de servicio,creacion y edicion de videos,2500.000000,2500.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+250,214,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1227.450000,1227.45,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+251,215,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+252,216,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+253,217,43231600,CRAPI02,1.000000,E48,SERVICIO,Costo anual por el servicio de descarga masiva de CFDIs a traves de API: RFCs ilimitados - 1 000 000 Descargas - Descarga con CIEC,13799.500000,13799.50,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+254,218,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+255,219,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+256,220,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+257,221,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+258,222,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+259,223,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+260,224,43231600,CSVW04,1.000000,E48,SERVICIO,"CSValidacion Web Negocio - Servicio de validacion de CFDIs: 5 RFCs - 25,000 Validaciones - 3 Usuarios - Descarga Ilimitada de CFDIs",21999.000000,21999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+261,224,43231600,CVW-AD,1.000000,E48,SERVICIO,1 Usuarios adicionales para el servicio CSValidacion Web,799.000000,799.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+262,225,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+263,226,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+264,227,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1043.330000,1043.33,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+265,228,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+266,229,83111603,"",1.000000,E48,Unidad de servicio,ATT Ármalo Negocios $299,180.430000,180.43,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+267,229,83111603,"",1.000000,E48,Unidad de servicio,ATT Ármalo Negocios $299,12.890000,12.89,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+268,229,83111603,"",1.000000,E48,Unidad de servicio,ATT Ármalo Negocios $299,64.440000,64.44,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+269,229,83111603,"",1.000000,E48,Unidad de servicio,AT&T Con Todo Negocios 299 Advance,180.430000,180.43,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+270,229,83111603,"",1.000000,E48,Unidad de servicio,AT&T Con Todo Negocios 299 Advance,12.890000,12.89,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+271,229,83111603,"",1.000000,E48,Unidad de servicio,AT&T Con Todo Negocios 299 Advance,64.440000,64.44,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+272,229,81112100,"",1.000000,E48,Unidad de servicio,Add on Internet 3 GB,214.650000,214.65,214.65,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+273,229,83111603,"",2.000000,E48,Unidad de servicio,ADDON CONTROL ACTN ADV,25.860000,51.72,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+274,230,52161512,"",2.000000,H87,"",Bocina Portátil Jbl Go 4 Bluetooth Morado,624.140000,1248.28,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+275,231,78181500,"",2.500010,E48,UNIDAD DE SERVICIO,TACOMA 200K,963.040000,2407.61,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+276,231,25174800,"",1.000000,H87,PIEZA,SELLO TAPON CARTER,25.370000,25.37,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+277,231,25174800,"",6.000000,H87,PIEZA,BUJIA,405.490000,2432.94,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+278,231,01010101,"",6.000000,H87,PIEZA,ACEITE 5W30 T,132.660000,795.96,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+279,231,25174800,"",1.000000,H87,PIEZA,FILTRO DE ACEITE,122.120000,122.12,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+280,231,25174800,"",1.000000,H87,PIEZA,FILTRO DE AIRE ACONDICIONADO,427.210000,427.21,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+281,232,52161514,JBLT520BTBLK,1.000000,H87,PZA,AUDIFONOS DIADEMA JBL ON EAR TUNE 520 BT BLACK,676.720000,676.72,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+282,233,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:51,2026-01-15 20:59:51
+283,234,43231600,CSRN01,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: 3 RFCs - 10,000 Descargas CIEC - 2 Equipos - Anual",1169.000000,1169.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+284,235,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+285,236,43231600,CSF03,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 300 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,1649.000000,1649.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+286,237,43231600,CSRA01,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",2799.000000,2799.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+287,238,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+288,239,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+289,240,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+290,241,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+291,241,43231600,CSRN-AD,1.000000,E48,SERVICIO,1 Instalaciones adicionales para el servicio CSReporter V3,629.000000,629.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+292,242,43231600,CTE-AD,10000.000000,E48,SERVICIO,10000 transacciones adicionales para el servicio CSTIMBRE,0.810000,8100.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+293,243,43231600,CSRN05,1.000000,E48,SERVICIO,Servicio de descarga masiva de CFDIs: RFCs Ilimitados - Descargas CIEC Ilimitadas - Descargas FIEL Ilimitadas - 4 Equipos - Anual,31720.000000,31720.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+294,243,43231600,CSRN-AD,10.000000,E48,SERVICIO,10 Instalaciones adicionales para el servicio CSReporter V3,999.000000,9990.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+295,244,43231600,CSF04,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 900 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,3349.000000,3349.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+296,245,43231600,CSRA01,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",2799.000000,2799.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+297,246,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+298,247,80141601,COMISION,1.000000,E48,COM,COMISION DICIEMBRE 2025,745.400000,745.40,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+299,248,43231600,CSF50,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 50 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,529.000000,529.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+300,249,43231600,CSRN02,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 25,000 Descargas CIEC - 2 Equipos - Anual",1999.000000,1999.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+301,250,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:51,2026-01-15 20:59:51
+302,251,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+303,252,43231600,CSF02,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 100 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,939.000000,939.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+304,253,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+305,254,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:53,2026-01-15 20:59:53
+306,255,43231600,CSF25,1.000000,E48,SERVICIO,Servicio de emision de facturas a traves del portal web: 25 CFDIs - Anual - Almacenamiento de las facturas por 5 anios - Soporte Tecnico,289.000000,289.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+307,256,84111506,"",1.000000,ACT,"",Pago,0.000000,0.00,0.00,01,,2026-01-15 20:59:53,2026-01-15 20:59:53
+308,257,43231600,csplg71,1.000000,E48,SERVICIO,"Cargo mensual por servicio de interconexion sistema-sistema a traves de archivos TXT / Web Service para generaci&oacute;n de CFDI, incluyendo el uso de los servicios CSPlug y CSTicket.",7402.750000,7402.75,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+309,257,43231600,CPG-AD,201269.000000,E48,SERVICIO,201269 transacciones adicionales para el servicio CSPlug,0.280000,56355.32,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+310,258,43231600,CSRA02,1.000000,E48,SERVICIO,"Servicio de descarga masiva y programada de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",5239.000000,5239.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+311,259,43231600,CSRN03,1.000000,E48,SERVICIO,"Servicio de descarga masiva de CFDIs: RFCs Ilimitados - 100,000 Descargas CIEC - 3 Equipos - Anual",3899.000000,3899.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53
+312,259,43231600,CSRN-AD,2.000000,E48,SERVICIO,2 Instalaciones adicionales para el servicio CSReporter V3,629.000000,1258.00,0.00,02,,2026-01-15 20:59:53,2026-01-15 20:59:53

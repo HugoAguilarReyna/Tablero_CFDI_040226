@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - "/d/antigravity/Dashboard_Leopoldo/data:/app/data"
+      - "./:/app" # Mount current dir for dev reloading
+    env_file:
+      - .env
+    restart: always

@@ -1,0 +1,8 @@
+streamlit
+pandas
+pymongo
+plotly
+python-dotenv
+streamlit-option-menu
+numpy
+dnspython

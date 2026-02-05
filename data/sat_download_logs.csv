@@ -1,0 +1,1 @@
+id,company_id,tipo,fecha_inicio,fecha_fin,fecha_emision,tipo_descarga,estatus,cfdis_emitidos_sat,cfdis_emitidos_descargados,cfdis_recibidos_sat,cfdis_recibidos_descargados,mensaje_error,metadata,iniciado_en,finalizado_en,created_at,updated_at

@@ -1,0 +1,67 @@
+:root {
+    /* === PRIMARY PALETTE === */
+    --color-primary: #6366f1;
+    /* Indigo base */
+    --color-primary-hover: #4f46e5;
+    /* Indigo dark */
+    --color-primary-light: #eef2ff;
+    /* Indigo lightest */
+
+    /* === SEMANTIC COLORS (Neon Accents) === */
+    --color-success: #00E676;
+    /* Neon Green */
+    --color-warning: #FFC400;
+    /* Amber Gold */
+    --color-danger: #FF1744;
+    /* Fluorescent Red */
+    --color-info: #2979FF;
+    /* Electric Blue */
+
+    /* === NEUTRAL SCALE (LIGHT MODE) === */
+    --bg-dark: #ffffff;
+    /* White background */
+    --bg-card: #f8fafc;
+    /* Slate 50 - Cards */
+    --bg-hover: #f1f5f9;
+    /* Slate 100 - Hover */
+
+    --text-primary: #0f172a;
+    /* Slate 900 - Main text */
+    --text-secondary: #475569;
+    /* Slate 600 - Secondary text */
+    --text-muted: #94a3b8;
+    /* Slate 400 - Muted text */
+
+    /* === GLASSMORPHISM (LIGHT MODE) === */
+    --glass-bg: rgba(248, 250, 252, 0.8);
+    /* Light translucent */
+    --glass-border: rgba(15, 23, 42, 0.08);
+    /* Subtle dark border */
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+    /* Softer shadow */
+    --neon-glow: 0 0 20px rgba(99, 102, 241, 0.15);
+    /* Softer glow for light mode */
+
+    /* === LAYOUT === */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-xl: 1rem;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Glass Card Helper Class */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1.5px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--glass-shadow);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--neon-glow), var(--glass-shadow);
+    border-color: var(--color-primary);
+}

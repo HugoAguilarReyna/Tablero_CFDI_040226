@@ -1,0 +1,1 @@
+id,company_id,user_id,fecha_desde,fecha_hasta,tipo_cfdi,efecto,formato,estado,total_archivos,archivos_procesados,archivo_zip,tamano_archivo,solicitado_at,completado_at,expira_at,error_message,detalles,created_at,updated_at

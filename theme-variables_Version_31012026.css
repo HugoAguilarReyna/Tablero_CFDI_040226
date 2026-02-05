@@ -1,0 +1,62 @@
+:root {
+    /* === PRIMARY PALETTE (Clean Light) === */
+    --color-primary: #667eea;
+    --color-primary-dark: #5a67d8;
+    --color-primary-hover: #764ba2;
+    --color-primary-active: #4c51bf;
+
+    /* Gradiente Principal */
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    /* === SEMANTIC COLORS === */
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-danger: #ef4444;
+    --color-info: #3b82f6;
+
+    /* === LIGHT SCALE (CLEAN MODE) === */
+    --bg-dark: #ffffff;
+    --bg-card: #f8fafc;
+    /* Zinc-50 */
+    --bg-hover: #f1f5f9;
+    /* Zinc-100 */
+
+    --text-primary: #0f172a;
+    /* Zinc-900 */
+    --text-secondary: #475569;
+    /* Zinc-600 */
+    --text-muted: #94a3b8;
+    /* Zinc-400 */
+
+    /* === GLASSMORPHISM (LIGHT MODE) === */
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(226, 232, 240, 0.8);
+    --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --neon-glow: 0 0 0px transparent;
+    /* No neon in light mode */
+
+    /* === LAYOUT === */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-xl: 1rem;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* Sombras Clean */
+    --shadow-primary: 0 4px 6px -1px rgba(102, 126, 234, 0.2);
+    --shadow-primary-lg: 0 10px 15px -3px rgba(102, 126, 234, 0.3);
+}
+
+/* Glass Card Helper Class */
+.glass-card {
+    background: var(--bg-card);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--glass-shadow);
+    transition: all 0.2s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
+}
