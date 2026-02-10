@@ -82,33 +82,88 @@ def render_invoice_module(data_lake):
         if "selected_invoice_idx" not in st.session_state:
             st.session_state.selected_invoice_idx = df_filtered.index[0] if not df_filtered.empty else None
 
-        # Interactive Table
-        selection_event = st.dataframe(
-            df_display,
+        # --- CSS INJECTION FOR LIGHT THEME OVERRIDE ---
+        st.markdown("""
+            <style>
+            /* Force Light Theme for Dataframe Container by overriding CSS Vars */
+            [data-testid="stDataFrame"] { 
+                background-color: #ffffff !important;
+                /* These variables control the underlying component colors */
+                --st-color-background-secondary: #f8f9fa !important;
+                --st-color-border-table: #e5e7eb !important;
+                --st-color-text: #000000 !important;
+            }
+            
+            /* Target Table Header specific cells (if rendered as DOM elements) */
+            [data-testid="stDataFrame"] th { 
+                background-color: #f8f9fa !important; 
+                color: #000000 !important; 
+                border-bottom: 2px solid #e5e7eb !important; 
+            }
+            
+            /* Target Index/Selection Column specific cells */
+            [data-testid="stDataFrame"] td, [data-testid="stDataFrame"] tbody th { 
+                background-color: #ffffff !important; 
+                color: #000000 !important; 
+                border-bottom: 1px solid #f3f4f6 !important; 
+            }
+            
+            /* Fix Input Contrast in this Module */
+            div[data-testid="stTextInput"] input { 
+                background-color: #ffffff !important; 
+                color: #000000 !important; 
+                border: 1px solid #cbd5e1 !important; 
+                caret-color: #000000 !important;
+            }
+            div[data-testid="stTextInput"] label { 
+                color: #334155 !important; 
+            }
+            
+            /* Ensure checkboxes are visible */
+            [data-testid="stCheckbox"] label { 
+                color: #334155 !important; 
+            }
+            </style>
+        """, unsafe_allow_html=True)
+
+        # --- INTERACTIVE DATAFRAME ---
+        # User requested selection capability + White Background / Black Text
+        
+        # 1. Pandas Styler for Formatting & Colors
+        def highlight_status(val):
+            color = '#059669' if str(val).lower() == 'vigente' else '#dc2626'
+            return f'color: {color}; font-weight: bold;'
+
+        styled_df = df_display.style.format({
+            'fecha_emision': lambda x: x.strftime('%Y-%m-%d %H:%M') if pd.notnull(x) else '',
+            'total': "${:,.2f}"
+        }).map(highlight_status, subset=['estatus']).set_properties(**{
+            'background-color': '#ffffff',
+            'color': '#000000',
+            'border-color': '#e5e7eb'
+        }).set_table_styles([
+            {'selector': 'th', 'props': [('background-color', '#f8f9fa'), ('color', '#000000'), ('font-weight', 'bold')]},
+            {'selector': 'thead th', 'props': [('background-color', '#f8f9fa'), ('color', '#000000'), ('border-bottom', '2px solid #e5e7eb')]}
+        ])
+        
+        # 2. Render Interactive Table
+        event = st.dataframe(
+            styled_df,
             use_container_width=True,
-            column_config={
-                "total": st.column_config.NumberColumn(format="$ %,.2f"),
-                "fecha_emision": st.column_config.DatetimeColumn(format="YYYY-MM-DD HH:mm")
-            },
-            height=250,
+            hide_index=True,
             on_select="rerun",
             selection_mode="single-row",
-            key="audit_table_selection"
+            height=500
         )
-        
-        # Handle Table Selection
-        if selection_event.selection.rows:
-            # Get the ILOC index from the displayed (sorted) dataframe
-            selected_iloc = selection_event.selection.rows[0]
-            # Get the actual index from the dataframe
-            new_selected_idx = df_display.index[selected_iloc]
-            
-            # Check if selection actually changed to avoid redundant updates (though harmless)
-            if st.session_state.selected_invoice_idx != new_selected_idx:
-                st.session_state.selected_invoice_idx = new_selected_idx
-                # CRITICAL: Force update the selectbox widget state
-                st.session_state['audit_selectbox_key'] = new_selected_idx
-                st.rerun() # Force immediate rerun to reflect change in selectbox
+
+        # 3. Handle Selection Event
+        if event and len(event.selection["rows"]) > 0:
+            # Get the index from the displayed dataframe using the row number
+            selected_row_idx = event.selection["rows"][0]
+            real_index = df_display.index[selected_row_idx]
+            st.session_state.selected_invoice_idx = real_index
+            # Sync drop-down
+            st.session_state.audit_selectbox_key = real_index
 
         st.markdown("---")
         

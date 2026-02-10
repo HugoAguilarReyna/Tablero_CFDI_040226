@@ -17,12 +17,12 @@ import audit_module # Moved to top
 # CONFIGURACIÓN DE SUBMENÚS PREMIUM
 # ============================================================================
 SUBMENU_CONFIG = {
-    "Dashboard": [
+    "Cuenta T": [
         {"label": "KPIs Operativos", "key": "kpis"},
         {"label": "Análisis Estructural", "key": "estructural"},
         {"label": "Tendencias", "key": "tendencias"}
     ],
-    "Auditoría": [
+    "Materialidad / REPSE": [
         {"label": "Normativa", "key": "normativa"},
         {"label": "Documentos", "key": "documentos"},
         {"label": "Seguimiento", "key": "seguimiento"}
@@ -33,7 +33,9 @@ SUBMENU_CONFIG = {
     ],
     "Compliance": [
         {"label": "Auditoría de Tasas", "key": "tasas"},
-        {"label": "Integridad de Flujo", "key": "flujo"}
+        {"label": "Integridad de Flujo", "key": "flujo"},
+        {"label": "Saldos IVA", "key": "saldos_iva"},
+        {"label": "Pagos Provisionales", "key": "pagos_provisionales"}
     ],
     "Configuración": [
         {"label": "General", "key": "general"},
@@ -459,11 +461,11 @@ def plot_dark_histogram(df, x_col, y_col, color_col, title):
         template='plotly_white',
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
-        font={'family': 'Inter, sans-serif', 'color': '#FFFFFF'}, # White text for dark mode
-        xaxis=dict(showgrid=False, tickfont=dict(color='#A0AEC0')),
-        yaxis=dict(showgrid=True, gridcolor='rgba(255,255,255,0.05)', tickfont=dict(color='#A0AEC0')),
+        font={'family': 'Inter, sans-serif', 'color': '#000000'}, # Black text
+        xaxis=dict(showgrid=False, tickfont=dict(color='#000000')),
+        yaxis=dict(showgrid=True, gridcolor='rgba(0,0,0,0.1)', tickfont=dict(color='#000000')),
         margin=dict(l=20, r=20, t=40, b=20),
-        legend=dict(font=dict(color='#A0AEC0'))
+        legend=dict(font=dict(color='#000000'))
     )
     return fig
 
@@ -724,7 +726,7 @@ if st.session_state.authenticated:
         st.markdown('<div id="filter-sidebar-marker"></div>', unsafe_allow_html=True)
         # Tab removed - handled by JS Teleport Pattern
         
-        st.markdown("### 🔍 FILTROS")
+        st.markdown("### FILTROS")
         st.markdown("---")
         
         # --- FILTERS CONTENT ---
@@ -737,7 +739,7 @@ if st.session_state.authenticated:
         st.markdown("---")
         
         time_agg_map = {"DIARIO": "D", "SEMANAL": "W", "MENSUAL": "M"}
-        time_agg_label = st.radio("Agrupación Temporal", options=list(time_agg_map.keys()), index=2) 
+        time_agg_label = st.radio("Agrupación Temporal", options=list(time_agg_map.keys()), index=0) 
         time_agg_code = time_agg_map[time_agg_label]
         
         st.markdown("---")
@@ -805,7 +807,7 @@ def render_premium_navbar():
 
     # Get state
     params = st.query_params
-    current_nav_norm = clean_str(params.get("nav", "Dashboard"))
+    current_nav_norm = clean_str(params.get("nav", "Cuenta T"))
     current_sub_norm = clean_str(params.get("subtab", ""))
 
     # ============================================================================
@@ -863,7 +865,7 @@ def render_premium_navbar():
     """, unsafe_allow_html=True)
 
     # 2. RENDER ACTIVE KEYS LOGIC
-    active_module_key = "Dashboard"
+    active_module_key = "Cuenta T"
     for k in SUBMENU_CONFIG.keys():
         if clean_str(k) == current_nav_norm:
             active_module_key = k
@@ -1032,7 +1034,7 @@ def render_premium_navbar():
     """)
 
     # 5. RENDER HTML (FLATTENED TO AVOID MARKDOWN CODE BLOCK ARTIFACTS)
-    navbar_html = f'<div class="linear-navbar"><div class="linear-logo" data-button-key="nav_dashboard_main">KONIA</div><div class="linear-nav-menu">{nav_items_html}</div></div>'
+    navbar_html = f'<div class="linear-navbar"><div class="linear-logo" data-button-key="nav_Cuenta T_main">KONIA</div><div class="linear-nav-menu">{nav_items_html}</div></div>'
     
     st.markdown(navbar_style, unsafe_allow_html=True)
     st.markdown(navbar_html, unsafe_allow_html=True)
@@ -1545,7 +1547,7 @@ if selected_module == "Configuración":
     st.divider()
     st.info("Configuración del sistema - Módulo en desarrollo")
 
-elif selected_module == "Dashboard":
+elif selected_module == "Cuenta T":
     
     if selected_subtab == "kpis":
         # --- SECCIÓN 1: VOLUMETRÍA...
@@ -1607,17 +1609,20 @@ elif selected_module == "Dashboard":
                 fig_q = px.bar(
                     q_dist, x='quintil', y='sum',
                     text=q_dist['porcentaje'].apply(lambda x: f'{x:.1f}%'),
-                    color='sum', template="plotly_dark",
+                    color='sum', template="plotly_white",
                     color_continuous_scale='Blues'
                 )
                 fig_q.update_layout(
                     height=400, 
                     showlegend=False, 
                     coloraxis_showscale=False,
-                    title="Distribución de Masa Monetaria por Quintil",
+                    title=dict(text="Distribución de Masa Monetaria por Quintil", font=dict(color="black")),
                     margin=dict(l=0, r=0, t=50, b=0), 
                     plot_bgcolor='rgba(0,0,0,0)',
-                    paper_bgcolor='rgba(0,0,0,0)'
+                    paper_bgcolor='rgba(0,0,0,0)',
+                    xaxis=dict(tickfont=dict(color='black')),
+                    yaxis=dict(tickfont=dict(color='black')),
+                    font=dict(color="black")
                 )
                 st.plotly_chart(fig_q, use_container_width=True)
                 
@@ -1637,20 +1642,24 @@ elif selected_module == "Dashboard":
         with c_cat1:
             if 'tipo' in df_filtered.columns:
                 df_tipo = df_filtered.groupby('tipo', observed=False)['total'].sum().reset_index()
-                color_map = {'I': '#39d353', 'E': '#f85149', 'N': '#ffffff', 'P': '#ffffff'}
+                # Updated N/P to dark grey for visibility on light background
+                color_map = {'I': '#39d353', 'E': '#f85149', 'N': '#57606a', 'P': '#57606a'}
                 fig_tipo = px.bar(
                     df_tipo, x='tipo', y='total', 
                     title="Ingresos vs Egresos",
                     text_auto='.2s',
                     color='tipo', 
                     color_discrete_map=color_map,
-                    template="plotly_dark"
+                    template="plotly_white"
                 )
                 fig_tipo.update_layout(
+                    title=dict(font=dict(color='black')),
                     plot_bgcolor='rgba(0,0,0,0)',
                     paper_bgcolor='rgba(0,0,0,0)',
-                    font={'family': 'JetBrains Mono'},
-                    showlegend=False
+                    font={'family': 'JetBrains Mono', 'color': 'black'},
+                    showlegend=False,
+                    xaxis=dict(title_font=dict(color='black'), tickfont=dict(color='black')),
+                    yaxis=dict(title_font=dict(color='black'), tickfont=dict(color='black'))
                 )
                 st.plotly_chart(fig_tipo, use_container_width=True)
             else:
@@ -1672,13 +1681,15 @@ elif selected_module == "Dashboard":
                     df_cat, values='total', names=cat_col, 
                     title=title,
                     hole=0.4,
-                    template="plotly_dark",
+                    template="plotly_white",
                     color_discrete_sequence=px.colors.qualitative.Pastel
                 )
                 fig_cat.update_layout(
+                    title=dict(font=dict(color='black')),
                     plot_bgcolor='rgba(0,0,0,0)',
                     paper_bgcolor='rgba(0,0,0,0)',
-                    font={'family': 'JetBrains Mono'}
+                    font={'family': 'JetBrains Mono', 'color': 'black'},
+                    legend=dict(font=dict(color='black'))
                 )
                 st.plotly_chart(fig_cat, use_container_width=True)
             else:
@@ -1700,21 +1711,37 @@ elif selected_module == "Dashboard":
             top10 = top10.sort_values('total', ascending=True) 
 
             # --- REEMPLAZO PREMIUM: TABLA INTELIGENTE EN LUGAR DE GRÁFICO BÁSICO ---
-            st.dataframe(
-                top10,
-                column_config={
-                    entity_col: st.column_config.TextColumn("Cliente / Receptor", width="medium"),
-                    "total": st.column_config.ProgressColumn(
-                        "Volumen Operado",
-                        format="$%d",
-                        min_value=0,
-                        max_value=top10['total'].max(),
-                        width="large",
-                    ),
-                },
-                use_container_width=True,
-                hide_index=True
-            )
+            # --- REEMPLAZO PREMIUM: TABLA HTML PERSONALIZADA (FONDO BLANCO, LETRAS NEGRAS) ---
+            # Solicitud Usuario: "Cambiar color negro por blanco y letras en negro" para la "gráfica" (tabla con barras)
+            
+            html_rows = ""
+            max_val = top10['total'].max()
+            
+            for _, row in top10.iterrows():
+                name = row[entity_col]
+                val = row['total']
+                pct = (val / max_val) * 100 if max_val > 0 else 0
+                
+                # Removed indentation to prevent Markdown code block rendering
+                html_rows += f"""<div style="display: flex; align-items: center; padding: 12px 15px; border-bottom: 1px solid #f0f0f0;">
+    <div style="flex: 0 0 40%; font-weight: 600; font-size: 13px; color: #1a1a1a; padding-right: 20px; text-transform: uppercase;">{name}</div>
+    <div style="flex: 1; display: flex; align-items: center;">
+         <div style="flex-grow: 1; background-color: #f5f5f7; height: 8px; border-radius: 4px; overflow: hidden; margin-right: 15px;">
+             <div style="width: {pct}%; background-color: #ff4b4b; height: 100%; border-radius: 4px;"></div>
+         </div>
+         <div style="min-width: 80px; text-align: right; font-weight: 700; font-size: 13px; color: #1a1a1a; font-family: 'JetBrains Mono', monospace;">${val:,.0f}</div>
+    </div>
+</div>"""
+            
+            st.markdown(f"""
+<div style="background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #e1e4e8; overflow: hidden; margin-top: 10px; margin-bottom: 30px;">
+    <div style="background-color: #f8f9fa; padding: 15px 20px; border-bottom: 1px solid #e1e4e8; display: flex; justify-content: space-between; align-items: center;">
+        <div style="color: #1a1a1a; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">CLIENTE / RECEPTOR</div>
+        <div style="color: #1a1a1a; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">VOLUMEN OPERADO</div>
+    </div>
+    {html_rows}
+</div>
+""", unsafe_allow_html=True)
 
         # --- MOVING TRENDS HERE AS REQUESTED (Area Chart + Waterfall) ---
         st.markdown("---")
@@ -1731,7 +1758,7 @@ elif selected_module == "Dashboard":
                 df_w, 
                 x='fecha_emision', 
                 y='total', 
-                template="plotly_dark",
+                template="plotly_white",
                 title="Análisis del Capital Operado",
                 labels={'fecha_emision': 'Periodo', 'total': 'Monto Total ($)'}
             )
@@ -1744,7 +1771,7 @@ elif selected_module == "Dashboard":
                 marker=dict(size=8, color='#58a6ff', line=dict(width=2, color='#ffffff')), # Marcadores claros
                 text=df_w['total'].apply(lambda x: f'${x/1000:,.0f}k'), # Texto con formato monetario sin decimales
                 textposition="top center", # Posición del texto encima de los puntos
-                textfont=dict(size=12, color='#ffffff') # Estilo del texto
+                textfont=dict(size=12, color='black') # Estilo del texto
             )
 
             fig_area.update_layout(
@@ -1755,17 +1782,17 @@ elif selected_module == "Dashboard":
                 yaxis_title=None, # Quitamos título del eje Y, ya está en el subtítulo
                 xaxis=dict(
                     showgrid=False, # Eliminamos cuadrícula para un look más limpio
-                    tickfont=dict(size=10, color='#8b949e'),
+                    tickfont=dict(size=10, color='black'),
                 ),
                 yaxis=dict(
                     showgrid=True, 
-                    gridcolor='#30363d', # Color de la cuadrícula más tenue
-                    tickfont=dict(size=10, color='#8b949e')
+                    gridcolor='rgba(0,0,0,0.1)', # Color de la cuadrícula más tenue
+                    tickfont=dict(size=10, color='black')
                 ),
                 plot_bgcolor='rgba(0,0,0,0)', # Fondo transparente
                 paper_bgcolor='rgba(0,0,0,0)', # Fondo transparente del papel
                 title=dict(
-                    font=dict(size=24, color='#ffffff', family='Inter, sans-serif'), # Título más grande
+                    font=dict(size=24, color='black', family='Inter, sans-serif'), # Título más grande
                     x=0.01 # Posición del título
                 )
             )
@@ -1792,8 +1819,11 @@ elif selected_module == "Dashboard":
             totals = {"marker":{"color":"#0047ab"}}
         ))
         fig_water.update_layout(
-            title="DESGLOSE DE FLUJO DE EFECTIVO",
-            template='plotly_dark', plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font={'family': 'JetBrains Mono'}, showlegend=False
+            title=dict(text="DESGLOSE DE FLUJO DE EFECTIVO", font=dict(color="black")),
+            template='plotly_white', plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', 
+            font={'family': 'JetBrains Mono', 'color': 'black'}, showlegend=False,
+            xaxis=dict(tickfont=dict(color='black')),
+            yaxis=dict(tickfont=dict(color='black'))
         )
         st.plotly_chart(fig_water, use_container_width=True)
 
@@ -1853,7 +1883,7 @@ elif selected_module == "Riesgos":
                     node = dict(pad = 20, thickness = 15, line = dict(color = "#58a6ff", width = 0.5), label = nodes, color = "#58a6ff"),
                     link = dict(source = links['emisor_nombre'].map(node_idx), target = links[target_col].map(node_idx), value = links['total'], color = 'rgba(88, 166, 255, 0.2)')
                 )])
-                fig_sankey.update_layout(template="plotly_dark", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono", size=10), height=500)
+                fig_sankey.update_layout(template="plotly_white", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono", size=10, color="black"), height=500)
                 st.plotly_chart(fig_sankey, use_container_width=True)
             else:
                 st.warning("Faltan columnas críticas para el Diagrama de Sankey")
@@ -1866,8 +1896,8 @@ elif selected_module == "Riesgos":
                 st.caption("Identifica anomalías fiscales mediante la detección automática de outliers en los montos totales.")
                 box_x = 'metodo_pago' if 'metodo_pago' in df_filtered.columns else ('tipo' if 'tipo' in df_filtered.columns else None)
                 if 'total' in df_filtered.columns and box_x:
-                    fig_box = px.box(df_filtered, x=box_x, y='total', points="outliers", template="plotly_dark", color_discrete_sequence=['#58a6ff'])
-                    fig_box.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono"), showlegend=False)
+                    fig_box = px.box(df_filtered, x=box_x, y='total', points="outliers", template="plotly_white", color_discrete_sequence=['#58a6ff'])
+                    fig_box.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono", color="black"), showlegend=False, xaxis=dict(tickfont=dict(color='black')), yaxis=dict(tickfont=dict(color='black')))
                     st.plotly_chart(fig_box, use_container_width=True)
 
             with col_heat:
@@ -1877,8 +1907,8 @@ elif selected_module == "Riesgos":
                     df_h = df_filtered.copy()
                     df_h['dia_mes'] = df_h['fecha_emision'].dt.day
                     df_h['mes_ano'] = df_h['fecha_emision'].dt.to_period('M').astype(str)
-                    fig_heat = px.density_heatmap(df_h, x='dia_mes', y='mes_ano', z='total', histfunc="count", color_continuous_scale="Reds", template="plotly_dark")
-                    fig_heat.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono"))
+                    fig_heat = px.density_heatmap(df_h, x='dia_mes', y='mes_ano', z='total', histfunc="count", color_continuous_scale="Reds", template="plotly_white")
+                    fig_heat.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono", color="black"), xaxis=dict(tickfont=dict(color='black')), yaxis=dict(tickfont=dict(color='black')))
                     st.plotly_chart(fig_heat, use_container_width=True)
 
         elif selected_subtab == "ranking":
@@ -1909,8 +1939,8 @@ elif selected_module == "Riesgos":
                 )
             with c2:
                 # Risk Distribution Chart
-                fig_risk_dist = px.histogram(risk_summary, x='risk_score', nbins=10, title="Distribución de Riesgo", template="plotly_dark", color_discrete_sequence=['#f85149'])
-                fig_risk_dist.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono"))
+                fig_risk_dist = px.histogram(risk_summary, x='risk_score', nbins=10, title="Distribución de Riesgo", template="plotly_white", color_discrete_sequence=['#f85149'])
+                fig_risk_dist.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(family="JetBrains Mono", color="black"), xaxis=dict(tickfont=dict(color='black')), yaxis=dict(tickfont=dict(color='black')))
                 st.plotly_chart(fig_risk_dist, use_container_width=True)
 
             # --- CYBER-ALERT BANNER FOR EXTREME RISK ---
@@ -1927,7 +1957,7 @@ elif selected_module == "Riesgos":
 
 
 # --- VIEW: FORENSIC AUDIT ---
-elif selected_module == "Auditoría":
+elif selected_module == "Materialidad / REPSE":
     if selected_subtab == "normativa":
         st.markdown('<div class="section-header">NORMATIVA SAT 2026</div>', unsafe_allow_html=True)
         st.info("📖 Módulo de Normativa - En desarrollo")
@@ -1992,10 +2022,10 @@ elif selected_module == "Compliance":
                      color='es_anomalo',
                      color_discrete_map={True: '#f85149', False: '#2ea043'},
                      title="Dispersión de Tasas: Base vs Impuesto (Rojo = Atípico)",
-                     template="plotly_dark",
+                     template="plotly_white",
                      hover_data=['uuid', 'tasa_calculada']
                  )
-                 fig_tasa.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+                 fig_tasa.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(color="black"), xaxis=dict(tickfont=dict(color='black')), yaxis=dict(tickfont=dict(color='black')))
                  st.plotly_chart(fig_tasa, use_container_width=True)
              
              with c2:
@@ -2066,7 +2096,7 @@ elif selected_module == "Compliance":
                          'thickness': 0.75,
                          'value': 100}}))
              
-             fig_gauge.update_layout(paper_bgcolor = "rgba(0,0,0,0)", font = {'color': "white", 'family': "JetBrains Mono"})
+             fig_gauge.update_layout(paper_bgcolor = "rgba(0,0,0,0)", font = {'color': "black", 'family': "JetBrains Mono"})
              st.plotly_chart(fig_gauge, use_container_width=True)
              
              if gap > 0:
@@ -2078,6 +2108,14 @@ elif selected_module == "Compliance":
                  
          else:
              st.warning("La columna 'metodo_pago' no está disponible para este análisis.")
+
+     elif selected_subtab == "saldos_iva":
+         st.markdown("<div class='section-header'>SALDOS IVA</div>", unsafe_allow_html=True)
+         st.info("💰 Módulo de Saldos IVA - En desarrollo")
+
+     elif selected_subtab == "pagos_provisionales":
+         st.markdown("<div class='section-header'>PAGOS PROVISIONALES</div>", unsafe_allow_html=True)
+         st.info("📅 Módulo de Pagos Provisionales - En desarrollo")
 
 
 # --- VIEW: SETTINGS (CONFIGURACIÓN) ---
